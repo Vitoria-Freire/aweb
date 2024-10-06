@@ -91,6 +91,14 @@ footer a:hover{
     padding: 15px;
     float: left;
     margin-right: 15px;
+    margin-left: 210px;
+    width: 450px;
+    margin-top: 45px;
+}
+.img {
+    padding: 15px;
+    float: left;
+    margin-right: 15px;
     margin-left: 150px;
     width: 150px;
 }
@@ -136,17 +144,14 @@ h2{
     text-align: justify;
     gap: 20px;
 }
-.rules li{
-    list-style-type: disc;
-}
 .rules h2{
-    padding-top: 60px;
+    padding-top: 80px;
     padding-left: 220px;
 }
 .rules ul{
     padding-top: 20px;
     padding-right: 230px;
-    padding-left: 250px;
+    padding-left: 50px;
 }
 #popularidade h2{
     padding-left: 210px;
