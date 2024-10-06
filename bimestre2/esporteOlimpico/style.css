@@ -87,6 +87,13 @@ footer a:hover{
     padding: 15px;
     margin-left: 35px;
 }
+.img4 {
+    padding: 15px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 150px;
+    width: 150px;
+}
 .quee{
     justify-content: center;
     align-items: flex-start;
@@ -145,6 +152,46 @@ h2{
     padding-left: 210px;
     padding-top: 50px;
     padding-right: 2px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+
+}
+.card {
+    border: 3px solid #021859;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 25%;
+    background-color: #021859;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) */
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-text p {
+    font-size: 1em;
+    color: #F0F0FA;
+    padding: 15px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+#cards{
+    margin-left: 220px;
+}
+#emphasis p{
+    padding-left: 5px;
+    padding-right: 220px;
 }
 /* 
 .theme-artistic_swimming-1-hex { color: #021859; }
