@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: ; */
+    font-family: Faustina; 
 }
 html, body{
     height: 100%;
-    background-color: #dddddd;
+    background-color: #DDDDDD;
+    color: #1B365C;
 }
 header{
     padding: 10px 20px;
@@ -74,8 +75,17 @@ footer a:hover{
     display: block;
 }
 .img2{
-    padding: 10px;
+    padding: 15px;
     float: left;
+    margin-right: 15px;
+    margin-left: 150px;
+    width: 450px;
+}
+.img3{
+    float: right;
+    margin-right: 200px;
+    padding: 15px;
+    margin-left: 35px;
 }
 .quee{
     justify-content: center;
@@ -88,15 +98,53 @@ footer a:hover{
     text-align: justify;
     padding-right: 150px;
     padding-left: 200px;
-    
+    padding-top: 20px;
+}
+.quee h2{
+    padding-top: 40px;
 }
 h2{
     font-size: 250%;
     color: #021859;
 }
-
-
-
+.history {
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    gap: 20px;
+}
+.history p {
+    text-align: justify;
+    padding-right: 150px;
+    padding-left: 230px;
+    padding-top: 20px;    
+}
+.history h2{
+    padding-left: 230px;
+    padding-top: 30px;
+}
+.rules{
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    gap: 20px;
+}
+.rules li{
+    list-style-type: disc;
+}
+.rules h2{
+    padding-top: 60px;
+    padding-left: 220px;
+}
+.rules ul{
+    padding-top: 20px;
+    padding-right: 230px;
+    padding-left: 250px;
+}
+#popularidade h2{
+    padding-left: 210px;
+    padding-top: 50px;
+}
 /* 
 .theme-artistic_swimming-1-hex { color: #021859; }
 .theme-artistic_swimming-2-hex { color: #4590BF; }
