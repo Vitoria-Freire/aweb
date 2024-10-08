@@ -83,7 +83,7 @@ footer a:hover{
 }
 .img3{
     float: right;
-    margin-right: 200px;
+    margin-right: 220px;
     padding: 15px;
     margin-left: 35px;
 }
@@ -93,14 +93,15 @@ footer a:hover{
     margin-right: 15px;
     margin-left: 210px;
     width: 450px;
-    margin-top: 45px;
+    margin-top: 40px;
 }
-.img {
+.img6 {
+    float: right;
+    margin-right: 220px;
     padding: 15px;
-    float: left;
-    margin-right: 15px;
-    margin-left: 150px;
-    width: 150px;
+    margin-left: 35px;
+    margin-top: 50px;
+    width: 450px;
 }
 .quee{
     justify-content: center;
@@ -111,12 +112,13 @@ footer a:hover{
 }
 .quee p{
     text-align: justify;
-    padding-right: 150px;
+    padding-right: 175px;
     padding-left: 200px;
     padding-top: 20px;
 }
 .quee h2{
     padding-top: 40px;
+    padding-left: 200px;
 }
 h2{
     font-size: 250%;
@@ -151,59 +153,40 @@ h2{
 .rules ul{
     padding-top: 20px;
     padding-right: 230px;
-    padding-left: 50px;
+    padding-left: 220px;
 }
 #popularidade h2{
-    padding-left: 210px;
-    padding-top: 50px;
+    padding-left: 220px;
+    padding-top: 100px;
     padding-right: 2px;
 }
 #popularidade ul {
     padding-left: 255px;
     padding-right: 20px;
     list-style-type: none;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 120%;
-}
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    gap: 30px;
-
-}
-.card {
-    border: 3px solid #021859;
-    border-radius: 8px;
-    overflow: hidden;
-    display: inline-block;
-    /* display: flex; */
-    /* flex-direction: column; */
-    width: 25%;
-    background-color: #021859;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) */
-}
-.card img {
-    width: 100%;
-    height: auto;
-}
-.card-text p {
-    font-size: 1em;
-    color: #F0F0FA;
-    padding: 15px;
-}
-.card:hover {
-    transform: scale(1.05);
-}
-#cards {
-    margin-left: 220px;
 }
 #emphasis {
     padding-left: 225px;
     padding-right: 20px;
+    margin: 50px 0px;
+}
+#emphasis img{
+    float: left;
+    padding-top: 10px;
+    width: 215px
+}
+#emphasis h2 {
+    margin-left: 35px;
+    padding-left: 200px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+#emphasis p {
+    margin: 20px 35px;
+    padding-left: 200px;
+    padding-right: 220px;
 }
 /* 
 .theme-artistic_swimming-1-hex { color: #021859; }

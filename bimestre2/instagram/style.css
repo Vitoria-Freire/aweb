@@ -1,12 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf7fa;
+    color: #282828;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* margin: 0px 20px; */
+    border-bottom: 2px solid #dbd5d5;
+}
 .perfilFoto{
     border-radius: 50%;
     margin-right: 20px;
     height: 150px;
     width: 150px;
+    object-fit: cover;
 }
-img {
+.infoperfil{
+    display: flex;
+    flex-direction: column;
+}
+.infoperfil h2{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.status{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.bio{
+    align-items: center;
+    display: flex;
+}
+.infobio{
+    display: flex;
+    flex-direction: column;
+
+    list-style-type: none;
+} 
+.destaques{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+}
+.item img{
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 2px solid #dbdbdb;
 }
-.infBio{
-    
+.nomeDestaque{
+    font-size: 12px;
+    color: #262626;
+}
+.publications{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+.foto{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.foto img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
