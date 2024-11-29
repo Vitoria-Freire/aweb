@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    background-color: #D8E6F2;
+    color: #0C1C33;
+}
+.topo{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Recursive", sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+header{
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    background-color: #789EBF;
+    color: #0C1C33;
+    align-items: center;
+    border-bottom: 1px solid #594242;
+}
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0C1C33;
+    transition: 0.3s;
+    padding: 0 15px;
+    list-style-type: none;
+    padding-top: 25px;
+}
+nav a:hover{
+    color: #594242;
+    transform: scale(1.05);
+}
+header h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Allura, "Great Vibes", cursive;
+    font-size: 100px;
+    font-style: normal;
+    border-bottom:1px solid #594242;
+}
+img{
+    float:initial;
+}
+/* 
+.Theme_pessoal-1-hex { color: #789EBF; } -principal
+.Theme_pessoal-2-hex { color: #D8E6F2; } -fundo
+.Theme_pessoal-3-hex { color: #594242; } -link
+.Theme_pessoal-4-hex { color: #00A778; } -destaque
+.Theme_pessoal-5-hex { color: #0C1C33; } -letras */

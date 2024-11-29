@@ -41,7 +41,7 @@ header nav ul li{
     display: inline-block;
     padding: 0 15px;
     list-style-type: none;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 nav ul li a:hover {
     color: #F0F0FA;
