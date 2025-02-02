@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+nav {
+    border-bottom: 1px solid seashell;
+    text-decoration: underline;
+    height: 69px;
+    display: flex;
+}
+.nav-lista {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1000px;
+}
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+.um {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto1 {
+    height: 700px;
+    width: 1200px;
+}
+.frase {
+    position: absolute; 
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    opacity: 1;
+}
