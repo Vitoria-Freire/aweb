@@ -7,6 +7,14 @@
     background-color: black;
     opacity: 0.9;
 }
+header {
+    opacity: 1;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 nav {
     border-bottom: 1px solid seashell;
     text-decoration: underline;
@@ -26,6 +34,7 @@ nav {
     margin: 10px;
 }
 .um {
+    padding-top: 69px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -45,4 +54,23 @@ nav {
     text-align: center;
     gap: 20px;
     opacity: 1;
+}
+.espaco {
+    height: 150px;
+}
+.dois {
+    display: flex;
+    justify-content: center;
+}
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    gap: 35px;
+    
+}
+footer p {
+    padding-left: 20px;
+    text-align: left;
 }
