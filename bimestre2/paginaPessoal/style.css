@@ -3,11 +3,11 @@
     padding: 0;
 }
 :root {
-    --backcolor: #F9F9F9;
-    --segundacor: #A8C1D1;
-    --fontcor: #1E1E1E;
-    --headercolor: #2B3A67;
-    --destaque: #F2A97E;
+    --backcolor: #BFBDB8;
+    --segundacor: #8C8C7D;
+    --fontcor: #040A0D;
+    --headercolor: #591B26;
+    --destaque: #BF807A;
 }
 html, body {
     height: 100%;
