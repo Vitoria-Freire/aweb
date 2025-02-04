@@ -104,3 +104,35 @@ p {
 
 }
 
+footer {
+    background-color:var(--headercolor);
+    color: var(--backcolor);
+    padding: 20px 10px;
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+}
+footer a {
+    color: var(--segundacor);
+    text-decoration: none;
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+}
+footer a:hover  {
+    color: var(--destaque);
+    transform: scale(1.05);
+}
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--segundacor);
+    transition: 0.3s;
+    font-family: "Bebas Neue", serif;
+}
+.img {
+    height:500px;
+    padding-left: 220px;
+}
+.img2 {
+    height:300px;
+
+}
