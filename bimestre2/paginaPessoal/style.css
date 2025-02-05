@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* Variáveis globais */
 :root {
     --backcolor: #BFBDB8;
     --segundacor: #8C8C7D;
@@ -11,7 +10,6 @@
     --destaque: #BF807A;
     --titulos: "Bebas Neue", serif;
 }
-/* Estilos gerais */
 html, body {
     height: 100%;
     background-color: var(--backcolor);
@@ -20,7 +18,6 @@ html, body {
 .body {
     margin: 0 160px 0 200px;
 }
-/* Header */
 header {
     margin-bottom: 25px;
     padding: 10px 0;
@@ -48,7 +45,6 @@ header h1 {
     overflow: hidden;
     font-family: var(--titulos);
 }
-/* Navegação */
 nav {
     text-align: right;
     font-size: large;
@@ -74,7 +70,6 @@ nav a:hover {
 .espaco {
     height: 150px;
 }
-/* Main */
 .cara {
     /* height: 100vh; */
     padding-top: 20px;
@@ -98,6 +93,7 @@ nav a:hover {
 p {
     font-size: 19px;
     font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
 }
 .botao-link {
     margin-top: 25px;
@@ -120,7 +116,6 @@ p {
     transform: scale(1.05);
     border-color: var(--destaque);
 }
-/*Sobre mim*/
 .me {
     text-align: justify;
     overflow: hidden;
@@ -128,7 +123,7 @@ p {
 .me p{
     float: left;
     width: 66%;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .me img {
     float: right;
@@ -141,9 +136,8 @@ h2 {
 }
 .tex1 {
     max-width: 1000px;
-    margin-top: 150px;
+    margin-top: 120px;
 }
-/*CARDS*/
 .card img {
     width: 100%;
     height: 220px;
@@ -204,7 +198,6 @@ h2 {
     color: var(--backcolor);
     cursor: pointer;
 }
-/* Footer */
 footer {
     background-color: var(--headercolor);
     color: var(--backcolor);
