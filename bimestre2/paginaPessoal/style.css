@@ -217,7 +217,7 @@ footer {
     bottom: 0;
     margin: 0 !important;
 }
-footer a {
+footer a{
     /* display: inline; */
     text-decoration: none;
     color: var(--segundacor);
@@ -228,6 +228,7 @@ footer a {
 footer a:hover {
     color: var(--destaque);
     transform: scale(1.05);
+    font-size: 25px;
 }
 #Contato i{
     color: var(--destaque);
