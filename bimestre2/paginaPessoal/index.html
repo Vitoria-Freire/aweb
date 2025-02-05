@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./imagens/VFS.png">
 
@@ -21,16 +22,16 @@
     <section class="body">
         <header>
             <section class="topo">
-                <img src="./imagens/logo1.jpg" alt=""> 
+                <img src="./imagens/logo.jpg" alt=""> 
                 <h1>VFS</h1>
                 <nav>
-                    <a href= "../../index.html">| INÍCIO |</a>
                     <a href="#Eu">| EU |</a>
                     <a href= "#Curiosidades">| CURIOSIDADES |</a>
                     <a href="#Educacao">| EDUCAÇÃO |</a>
                     <a href="#Causos">| CAUSOS |</a>
                     <a href="#Habilidade">| HABILIDADES |</a>
                     <a href="#Contato">| CONTATOS |</a>
+                    <a href= "../../index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
                 </nav>
             </section>  
         </header>
@@ -39,7 +40,7 @@
 
         <main>
             <section class="cara">
-            <img src="./imagens/foto(1).jpg" alt="Foto do perfil" class="perfil">
+            <img src="./imagens/eu.jpg" alt="Foto do perfil" class="perfil">
             <div>
                 <h1>Vitória Freire</h1>
                 <p>Oi! Sou Vitória Freire, curiosa por natureza e apaixonada 
@@ -53,7 +54,7 @@
 
             <div class="espaco" id="um"></div> 
             <section class="me">
-                <img src="./imagens/f.png" alt="">
+                <img src="./imagens/fundoEu.png" alt="">
                 <div class="tex1">
                     <h2>Um pouco sobre mim</h2>
                     <p>Meu nome é Vitória Freire Silva, sou de Ceará-Mirim, onde moro com meu 
@@ -84,80 +85,87 @@
                         <p>Sou Consagrada a Maria</p>
                     </div>
                     <div class="card">
-                        <img src="./imagens/123.jpg" alt="">
+                        <img src="./imagens/timeRobo.jpg" alt="">
+                        <p>Participo da Robotica do Campus</p>
+                    </div>
+                    <div class="card">
+                        <img src="./imagens/quimica.jpg" alt="">
                         <p>Minha matéria preferida é química</p>
                     </div>
                     <div class="card">
-                        <img src="./imagens/4.jpg" alt="">
-                        <p>Faço parte da    RCC</p>
+                        <img src="./imagens/rcc.jpg" alt="">
+                        <p>Faço parte da RCC</p>
                     </div>
                     <div class="card">
                         <img src="./imagens/criminal.jpg" alt="">
                         <p>Gosto de conteúdos criminais</p>
                     </div>
-                    <div class="card">
-                        <img src="./imagens/timeRobo.jpg" alt="">
-                        <p>Participo da Robotica do Campus</p>
-                    </div>
                 </div>
             </section>
 
             <div class="espaco" id="Educacao"></div>
+
             <section>
                 <h2>Minha Jornada Acadêmica</h2>
                 <table class="tabela">
-                    <tr>
-                        <th>Ano de formação</th>
-                        <th>Nome da Escola</th>
-                    </tr>
-                    <tr>
-                        <td>Educação Infantil</td>
-                        <td>SECAT</td>
-                    </tr>
-                    <tr>
-                        <td>1º ano</td>
-                        <td>SECAT/SELM</td>
-                    </tr>
-                    <tr>
-                        <td>2º ano</td>
-                        <td>SECAT/SELM</td>                
-                    </tr>
-                    <tr>
-                        <td>3º ano</td>
-                        <td>SECAT/SELM</td>                
-                    </tr>
-                    <tr>
-                        <td>4º ano</td>
-                        <td>SECAT/SELM</td>                
-                    </tr>
-                    <tr>
-                        <td>5º ano</td>
-                        <td>SECAT/SELM</td>                
-                    </tr>
-                    <tr>
-                        <td>6º ano</td>
-                        <td>SECAT/SELM</td>                
-                    </tr>
-                    <tr>
-                        <td>7º ano</td>
-                        <td>SECAT/SELM</td>                
-                    </tr>
-                    <tr>
-                        <td>8º ano</td>
-                        <td>SELM</td>                
-                    </tr>
-                    <tr>
-                        <td>9º ano</td>
-                        <td>SELM</td>
-                    </tr>
-                    <tr>
-                        <td>Ensino Médio</td>
-                        <td>IFRN-Campus Ceará-Mirim</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Ano de formação</th>
+                            <th>Nome da Escola</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>Educação Infantil</td>
+                            <td>SECAT</td>
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>1º ano</td>
+                            <td>SECAT/SELM</td>
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>2º ano</td>
+                            <td>SECAT/SELM</td>                
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>3º ano</td>
+                            <td>SECAT/SELM</td>                
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>4º ano</td>
+                            <td>SECAT/SELM</td>                
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>5º ano</td>
+                            <td>SECAT/SELM</td>                
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>6º ano</td>
+                            <td>SECAT/SELM</td>                
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>7º ano</td>
+                            <td>SECAT/SELM</td>                
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>8º ano</td>
+                            <td>SELM</td>                
+                        </tr>
+                        <tr onclick="window.open('https://www.selm.com.br/', '_blank');">
+                            <td>9º ano</td>
+                            <td>SELM</td>
+                        </tr>
+                        <tr onclick="window.open('https://portal.ifrn.edu.br/campus/ceara-mirim/', '_blank')">
+                            <td>Ensino Médio</td>
+                            <td>IFRN-Campus Ceará-Mirim</td>
+                        </tr>
+                    </tbody>
                 </table>
             </section>
     
             <div class="espaco" id="Causos"></div>
+
+            <img src="./imagens/diaepico.png" alt="" class="img3">
             <section>
                 <h2>Um Causo pra Contar</h2>
                 <p>
@@ -167,14 +175,15 @@
                 caminhonetes. As crianças e adolescentes (com idades entre 4 
                 e 18 anos) foram nas caçambas das caminhonetes, totalizando 
                 doze jovens. Como não estávamos indo pela BR, achamos que não 
-                haveria problema. <br>Depois de passarmos por três praias, decidimos 
+                haveria problema. </p> 
+                <p> <br>Depois de passarmos por três praias, decidimos 
                 voltar pela BR para ser mais rápido. Porém, ninguém esperava 
                 encontrar uma blitz naquele dia. Nossa sorte foi que um motociclista 
                 percebeu a nossa situação e avisou os motoristas sobre o risco. 
                 Com essa informação, eles decidiram tirar todos os jovens 
                 (incluindo as crianças de 4 anos) das caçambas e nos mandar a 
                 pé até um ponto combinado, depois de uma lagoa que supostamente 
-                existia por ali (mas que nunca vimos). <br>Após alguns minutos de 
+                existia por ali (mas que nunca vimos).</p> <p><br>Após alguns minutos de 
                 caminhada, começamos a ficar ansiosos, com medo de nos perder, 
                 mas, ao mesmo tempo, estávamos gostando da aventura. Logo 
                 avistamos um dos adultos vindo em nossa direção. Com a ajuda 
@@ -192,23 +201,23 @@
                 <h2>Minhas Habilidades</h2>
                 <div class="cards">
                     <div class="card">
-                        <img src="./imagens/Nossa Senhora.jpg" alt="">
+                        <img src="./imagens/nado.jpg" alt="">
                         <p>Ótima nadadora, realizo percursos com velocidade e eficiência em curtos períodos de tempo.</p>
                     </div>
                     <div class="card">
-                        <img src="./imagens/123.jpg" alt="">
+                        <img src="./imagens/math.jpg" alt="">
                         <p>Facilidade com matemática, compreendo e resolvo problemas de forma lógica e prática.</p>
                     </div>
                     <div class="card">
-                        <img src="./imagens/4.jpg" alt="">
+                        <img src="./imagens/book.jpg" alt="">
                         <p>Habilidade em comunicação, inicio conversas de maneira natural e envolvente com qualquer pessoa.</p>
                     </div>
                     <div class="card">
-                        <img src="./imagens/criminal.jpg" alt="">
+                        <img src="./imagens/cake.jpg" alt="">
                         <p>Talento para doces, sempre ficam deliciosos, mas pratos salgados nem sempre dão certo.</p>
                     </div>
                     <div class="card">
-                        <img src="./imagens/timeRobo.jpg" alt="">
+                        <img src="./imagens/programar.jpg" alt="">
                         <p>Aprendizado rápido, compreendo e assimilo novas tecnologias e conceitos com facilidade.</p>
                     </div>
                 </div>
@@ -218,10 +227,11 @@
         <div class="espaco"></div>
     </section>
     <footer id="Contato">
-        <h3>Contatos:</h3>
-            E-mail: <a href="mailto:vitoriafs200703@gmail.com?subject=contato&body" target="_blank">Entre em contato comigo pelo e-mail</a> <br>
-            GitHub: <a href="https://github.com/Vitoria-Freire" target="_blank">Me encontre no GitHub</a> <br>
-            Istagram: <a href="https://www.instagram.com/_vivifreire_/" target="_blank">Me encontre no Instagram</a> <br>
+        <h3>Fale Comigo</h3>
+            <a href="mailto:vitoriafs200703@gmail.com?subject=contato&body" target="_blank"><i class="fa-solid fa-envelope"></i>Pelo e-mail</a> <br>
+            <a href="https://github.com/Vitoria-Freire" target="_blank"><i class="fa-brands fa-github"></i>Pelo GitHub</a> <br>
+            <a href="https://www.instagram.com/_vivifreire_/" target="_blank"><i class="fa-brands fa-instagram"></i>No Instagram</a> <br>
     </footer>
 </body>
+
 </html> 
